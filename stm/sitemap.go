@@ -1,13 +1,9 @@
 package stm
 
-import (
-	"log"
-	"runtime"
-)
+import "runtime"
 
 // NewSitemap returns the created the Sitemap's pointer
 func NewSitemap() *Sitemap {
-	log.SetFlags(log.LstdFlags | log.Llongfile)
 	runtime.GOMAXPROCS(runtime.NumCPU())
 
 	sm := &Sitemap{
