@@ -1,11 +1,7 @@
 package stm
 
-import "runtime"
-
 // NewSitemap returns the created the Sitemap's pointer
 func NewSitemap() *Sitemap {
-	runtime.GOMAXPROCS(runtime.NumCPU())
-
 	sm := &Sitemap{
 		opts: NewOptions(),
 	}
