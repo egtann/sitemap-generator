@@ -1,5 +1,7 @@
 module github.com/egtann/sitemap-generator
 
+go 1.14
+
 require (
 	github.com/beevik/etree v1.0.0
 	github.com/fatih/structs v1.0.0

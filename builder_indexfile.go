@@ -1,6 +1,8 @@
 package stm
 
-import "bytes"
+import (
+	"bytes"
+)
 
 // NewBuilderIndexfile returns the created the BuilderIndexfile's pointer
 func NewBuilderIndexfile(loc *Location) *BuilderIndexfile {

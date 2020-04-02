@@ -25,7 +25,10 @@ func (adp *FileAdapter) Write(loc *Location, data []byte) {
 		log.Fatalf("[F] %s should be a directory", dir)
 	}
 
-	file, _ := os.OpenFile(loc.Path(), os.O_WRONLY|os.O_CREATE|os.O_TRUNC, 0666)
+	file, err := os.OpenFile(loc.Path(), os.O_WRONLY|os.O_CREATE|os.O_TRUNC, 0660)
+	if err != nil {
+		log.Fatalf("[F] open file: %s", err)
+	}
 	fi, err = file.Stat()
 	if err != nil {
 		log.Fatalf("[F] %s file not exists", loc.Path())

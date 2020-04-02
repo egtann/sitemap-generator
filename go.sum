@@ -1,0 +1,6 @@
+github.com/beevik/etree v1.0.0 h1:gQ0/0GdWwIZONSQVL/btX2rZ/OwMSV7twGyq42D+KUg=
+github.com/beevik/etree v1.0.0/go.mod h1:r8Aw8JqVegEf0w2fDnATrX9VpkMcyFeM0FhwO62wh+A=
+github.com/fatih/structs v1.0.0 h1:BrX964Rv5uQ3wwS+KRUAJCBBw5PQmgJfJ6v4yly5QwU=
+github.com/fatih/structs v1.0.0/go.mod h1:9NiDSp5zOcgEDl+j00MP/WkGVPOlPRLejGD8Ga6PJ7M=
+github.com/imdario/mergo v0.0.0-20180126225947-0d4b488675fd h1:sb3gWfpBVJXax4p698BwAjJeCTPGq9YT2L+QFDHpX2c=
+github.com/imdario/mergo v0.0.0-20180126225947-0d4b488675fd/go.mod h1:2EnlNZ0deacrJVfApfmtdGgDfMuh/nq6Ok1EcJh5FfA=
